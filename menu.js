@@ -4,7 +4,7 @@ let close =document.querySelector(".close");
 let modalMenu = document.querySelector(".modal-menu");
 let headerMobileInactive = document.querySelector(".header--mobile");
 let headerLaptopInactive = document.querySelector(".header--laptop");
-let mainInactive = document.querySelector("main");
+let mainInactive = document.querySelector(".main");
 let html = document.querySelector("html");
 burgerMobile.addEventListener("click", function () {
     modalMenu.classList.add("modal-active");
