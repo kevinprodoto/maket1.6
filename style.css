@@ -232,7 +232,8 @@ a {
         margin-left: 320px;
     }
     .modal-menu {
-        box-shadow: 0px;
+        box-shadow: none !important;
+        position: fixed !important;
     }
     .main {
         margin-left: 320px;
